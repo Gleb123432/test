@@ -24,7 +24,7 @@ for x in range(0, len(now_say)):
             pass
         else:
             errors += 1
-            print('vi napisali "', input[x], '" vmesto "', now_say[x], '"')
+            print('vi napisaldddi "', input[x], '" vmesto "', now_say[x], '"')
     else:
             print('vi napisali " - "', 'vmesto "', now_say[x], '"')
 if errors == 0:
